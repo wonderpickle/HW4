@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>Praey to the Gods</title>
+
+<style>
+	@font-face {
+		font-family:edo;
+		src:url("edo.ttf");
+	}
+	.topheader{
+		background-color:white;
+	}
+
+	.productsect{
+		border: 1px black solid;
+		width:100%;
+		margin:0px auto;
+		background-color:black;
+		display:-webkit-inline-box;
+		padding-bottom:20px;
+		
+		}
+	
+	.column1,.column2{
+	width:50%;
+	}	
+	.gaming{
+		display:block;
+		margin:20px auto;
+	}
+	h1{
+		text-align:center;
+		font-family:edo;
+		font-size:50px;
+		margin-bottom:-15px;
+		letter-spacing:4px;
+	}
+	h2{
+		margin-left:10%;
+		font-family:edo;
+		font-size:36px;
+		color:white;
+	}
+	.info,#desc,#pledged,#backs{
+		font-family:sanserif;
+		margin-left:10%;
+		padding-right:15%;
+		font-size:20px;
+		line-height:30px;
+		color:white;
+	
+	}
+	.dono{
+		width:75%;
+		margin:0px auto;
+		background-color: black;
+		color:white;
+		border:2px white solid;
+		margin-top:5%;
+	
+		display:block;
+		}
+	
+	#link{
+		font-family:sanserif;
+		font-size:20px;
+		line-height:30px;
+		color:white;
+	}
+	.vid{
+		padding-top:10%;
+	}
+	.praey{
+		text-align:center;
+		font-family:edo;
+		font-size:30px;
+		margin-top:5%;
+	}
+	#name{
+		text-align:center;
+		font-family:edo;
+		font-size:30px;
+	}
+	
+	.evencolumn {
+
+	border-left: 2px solid white;
+    float: left;
+    width: 23.1%;
+	padding:10px;
+}
+
+/* Clear floats after the columns */
+.dono:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+	
+	
+	
+</style>
+
+
+
+</head>
+<body>
+	<p>  </p>
+	<div class="topheader">
+	<h1> Enter the world of </h1>
+<img class ="gaming" src ="prey to the gods.png">
+
+</div>
+<div class= "productsect">
+<div class= "column1">
+<h2> ABOUT </h2>
+<p id= "desc">  </p>
+<p class ="info"><a id="link" href=""></a> to view the official kickstarter campaign. </p>
+<p id="pledged"></p>
+<p id ="backs"></p>
+
+</div>
+<div class = "column2">
+<iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/8Zulk8c_8LY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+</div>
+
+<!-- this is the section where you will see the donations-->
+
+
+<p class="praey">
+Levels of Pledges for
+<p id="name"></p>
+</p>
+<div class = "dono">
+	<div class="evencolumn">
+	<p id ="initiate0"></p>
+	<p id ="price0"></p>
+	<p id = "inc0"></p>
+	</div>
+	<div class="evencolumn">
+		<p id ="initiate1"></p>
+		<p id ="price1"></p>
+		<p id ="inc1"></p>
+	</div>
+	<div class="evencolumn">
+		<p id ="initiate2"></p>
+		<p id ="price2"></p>
+		<p id ="inc2"></p>
+	</div>
+	<div class="evencolumn">
+		<p id ="initiate3"></p>
+		<p id ="price3"></p>
+		<p id ="inc3"></p>
+
+	</div>
+</div>
+
+
+</body>
+<script type = "text/javascript" src ="kickstarter.js"></script>
+</html>
