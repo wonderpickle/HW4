@@ -74,18 +74,7 @@ link.href = kickstarter.link;
 var length = kickstarter.pledgeLevels.length;
 var xx = document.getElementById('text');
 
-for (i = 0; i < length; i++) {
-    var lev = document.getElementById('initiate' + i);
-    lev.textContent = "Level: " + kickstarter.pledgeLevels[i].name;    
-}
-for ( j = 0; j < length; j++) {
-    var cost = document.getElementById('price' + j);
-    cost.textContent = "Price: " + kickstarter.pledgeLevels[j].price;    
-}
-for ( k = 0; k < length; k++) {
-    var includes = document.getElementById('inc' + j);
-    includes.textContent = "Includes: " + kickstarter.pledgeLevels[k].includes;    
-}
+
 
 
 //name of the kickstarter campagin and pledges as well
@@ -101,7 +90,18 @@ var backer = document.getElementById('backs');
 var info = document.getElementById('desc');
 	info.textContent = kickstarter.description;
 	
-
+for (i = 0; i < length; i++) {
+    var lev = document.getElementById('initiate' + i);
+    lev.textContent = "Level: " + kickstarter.pledgeLevels[i].name;    
+}
+for ( j = 0; j < length; j++) {
+    var cost = document.getElementById('price' + j);
+    cost.textContent = "Price: " + kickstarter.pledgeLevels[j].price;    
+}
+for ( k = 0; k < length; k++) {
+    var includes = document.getElementById('inc' + j);
+    includes.textContent = "Includes: " + kickstarter.pledgeLevels[k].includes;    
+}
 //foor loops 
 
 
